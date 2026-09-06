@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 6. Descendant selector */
+      /* s1 s2 ความหมายคือ s2 ทั้งหมดอยู่ภายใต้ s1 */
+      #aa p {
+        color: rgb(102, 102, 236);
+      }
+      #bb span {
+        color: rgb(240, 109, 57);
+      }
+      #cc p {
+        color: rgb(120, 168, 110);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to DTI-SAU (08)</h1>
+    <div id="aa">
+      <p>11111</p>
+      <p>22222</p>
+      <span>Hello</span>
+      <div id="bb">
+        <p>33333</p>
+        <div id="cc">
+          <p>4444</p>
+        </div>
+        <span>Hi</span>
+      </div>
+      <p>55555</p>
+    </div>
+    <p>66666</p>
+    <p>77777</p>
+    <span>Hey</span>
+    <p>88888</p>
+  </body>
+</html>

@@ -5,35 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <style>
-        #p1 {
+        /* 3. ID selector */
+        #sau1 {
+            color: rgb(97, 131, 89);
+        }
+        #sau2 {
             color: rgb(102, 102, 236);
+        }
+        /* 4. Class selector */
+        .dti1 {
             text-align: center;
         }
-        #p2 {
-            color: rgb(185, 185, 255);
-            text-align: center;
+        .dti2 {
+            text-decoration: overline dotted 5px rgb(102, 102, 236);
+        }
+        /* 5. Union, group selectors */
+        h1, .dti1, span {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(194, 255, 237);
         }
     </style>
-    <link rel="stylesheet" href="css/style04.css">
-        
 </head>
 
 <body>
-    <h1 style="color: rgb(102, 102, 236); text-align: center;">Welcome to DTI-SAU (04) </h1>
-    <h1 style="color: rgb(185, 185, 255); text-align: center;">สวัสดีชาวโลกทั้งหลาย</h1>
-    <h3>My id: 6952D10006</h3>
-    <h3>My name: kittichet phiriyaphatchrarat</h3>
+    <h1 id="sau1" class="dti1 dti2">Welcome to DTI-SAU(07)</h1>
+    <h1 id="sau2" >สวัสดีชาวโลกทั้งหลาย</h1>
+    <h3 class="dti2">My id: 6952D10006</h3>
+    <h3 class="dti1">My name: kittichet phiriyaphatchrarat</h3>
     <hr>
-    <p>
+    <p class="dti1">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium pariatur eligendi voluptates obcaecati
         velit sed nulla dignissimos. Facere voluptate deserunt eum quo officia, vero explicabo aut distinctio fuga
         cumque qui illo optio perspiciatis obcaecati temporibus illum quisquam recusandae eaque dicta. Debitis officia
         aut accusantium reiciendis aperiam quasi, optio sed harum.
     </p>
     <hr>
-    <p>
+    <p class="dti2">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio nemo molestiae voluptatum perspiciatis
         facere ea error vero possimus maxime at obcaecati soluta ipsam saepe debitis ducimus amet, facilis quibusdam
         ipsa dolores fugit sit eum. Accusamus, excepturi molestiae optio asperiores ullam atque, dolores deserunt
@@ -41,7 +49,7 @@
     </p>
     <hr>
     <!-- HTML : Div Tag เปรี่ยบเสมือนกล่องเปล่าๆ ที่ยึดความกว้างเต็มพื้นที่ โดยเราสามารถเอาอะไรมาใส่ในกล่องก็ได้ -->
-    <div>
+    <div class="dti1">
         <!-- HTML : Span Tag เปรี่ยบเสมือนกล่องเปล่าๆ ที่ยึดความกว้างเท่ากับเนื้อหาที่ใส่ในกล่อง -->
         <span>Created by: kittichet phiriyaphatchrarat</span>
         <br />
